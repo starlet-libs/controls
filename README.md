@@ -11,7 +11,7 @@ A lightweight input management library for Starlet projects with OpenGL engines 
 include(FetchContent)
 
 FetchContent_Declare(starlet_controls
-  GIT_REPOSITORY https://github.com/Masonlet/starlet-controls.git 
+  GIT_REPOSITORY https://github.com/starlet-libs/controls.git
   GIT_TAG main
 )
 FetchContent_MakeAvailable(starlet_controls)
